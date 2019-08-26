@@ -1,0 +1,44 @@
+.timer {
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 25px;
+  border-radius: 100px;
+  color: #504343;
+  align-items: center;
+  font-size: 40px;
+  width: 1000px;
+  margin: 120px;
+}
+
+.chrono {
+  text-align: center;
+  margin: 30px;
+  font-weight: bold;
+}
+.Units {
+  display: flex;
+  font-size: gray;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 50px;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  margin: 30px;
+}
+
+.btn {
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: bold;
+  height: 39px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  width: 100px;
+  border-color: rgb(214, 218, 222);
+  background-color: white;
+  margin-right: 10px;
+}
